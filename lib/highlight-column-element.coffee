@@ -71,7 +71,7 @@ class HighlightColumnView extends HTMLDivElement
     if @isLineMode()
       0.3
     else
-      atom.config.get('highlight-column.opacity') ? 0.15
+      atom.config.get('highlight-column.opacity') ? 0.05
 
   highlightRect: ->
     rect = @_cursorPixelRect()
