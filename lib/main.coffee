@@ -4,7 +4,7 @@ module.exports = HighlightColumn =
   config:
     opacity:
       type: 'number'
-      default: 0.15
+      default: 0.05
       minimum: 0
       maximum: 1
     enabled:
